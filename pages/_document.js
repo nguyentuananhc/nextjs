@@ -9,6 +9,7 @@ export default class MyDocument extends Document {
 					<title>Awesome interesting stuff</title>
 					<meta charSet="utf-8" />
 					<meta content="IE=edge" />
+					<meta name="google-site-verification" content="googlef1c2089a67bd4283" />
 					{/*<link href="/_next/static/style.css" rel="stylesheet" type="text/css"/>*/}
 					<link
 						href="/static/css/wrapper.css"
