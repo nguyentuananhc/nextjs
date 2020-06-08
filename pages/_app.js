@@ -6,8 +6,8 @@ import flowRight from "lodash.flowright";
 import withRedux from "next-redux-wrapper";
 
 import Store from "../src/store"
-import Header from "../src/component/Header";
-import Footer from "../src/component/Footer";
+import Header from "../src/components/Header";
+import Footer from "../src/components/Footer";
 
 class MyApp extends App {
 	static async getInitialProps({ Component, ctx }) {

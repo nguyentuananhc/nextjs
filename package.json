@@ -3,14 +3,16 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
+    "dev": "next dev -p 4000",
     "build": "next build",
+    "build-static": "next build && next export",
     "start": "next start"
   },
   "dependencies": {
     "@reduxjs/toolkit": "^1.3.6",
     "@zeit/next-css": "^1.0.1",
     "@zeit/next-sass": "^1.0.1",
+    "aos": "^2.3.4",
     "dotenv": "^8.2.0",
     "isomorphic-fetch": "^2.2.1",
     "lodash.flowright": "^3.5.0",
@@ -23,6 +25,7 @@
     "react": "^16.13.0",
     "react-cookie": "^3.0.4",
     "react-dom": "^16.13.0",
+    "react-hook-form": "^5.7.2",
     "react-redux": "^7.1.0-rc.1",
     "redux": "^4.0.5",
     "redux-logger": "^3.0.6",
@@ -40,8 +43,9 @@
     "jquery": "^3.3.1",
     "lodash": "^4.17.11",
     "moment": "^2.22.2",
+    "prettier": "2.0.5",
     "sw-precache-webpack-plugin": "^0.11.4",
     "webpack-filter-warnings-plugin": "^1.2.1",
-    "yup": "0.23.0"
+    "yup": "^0.23.0"
   }
 }
